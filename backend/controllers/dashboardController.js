@@ -53,7 +53,7 @@ exports.getDashboardData = async (req, res) => {
                     type: "expense",
                 })
             )
-        ].sort((a, b) => b.date - a.date);
+        ].sort((a, b) => b.date - a.date);      
 
         res.json({
             totalBalance: (totalIncome[0]?.total || 0) - (totalExpense[0]?.total || 0),
