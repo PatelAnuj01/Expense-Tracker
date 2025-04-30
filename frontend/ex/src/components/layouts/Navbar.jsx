@@ -19,8 +19,8 @@ const Navbar = (activeMenu) => {
         )
         }
         </button>
-
-        <h2 className='text-lg font-medium text-black'>Expense Tracker</h2>
+        <img src="favicon.ico" alt="" height="10px" width="30px"/>
+        <h2 className='text-lg font-medium text-black'>Expenzo</h2>
 
         {openSideMenu && (
           <div className='fixed top-[61px] -ml-4 bg-white'>
